@@ -12,6 +12,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 export default async function UserButton() {
   const session = await auth();
+  // if (!session?.user) return <SignIn provider="github" />;
   if (!session?.user) return <SignIn />;
 
   return (

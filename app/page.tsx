@@ -6,7 +6,7 @@ export default async function Home() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="text-3xl font-bold">🚀NextAuth.js Tutorial</h1>
+      <h1 className="text-3xl font-bold">NextAuth.js For GitHub</h1>
       <div>
         <CustomLink href="/server-example" className="underline">
           サーバー
@@ -15,7 +15,9 @@ export default async function Home() {
         <CustomLink href="/client-example" className="underline">
           クライアント
         </CustomLink>
-        の例を見て、ページを保護してセッションデータを取得する方法を確認してください。
+        でそれぞれGitHubでのAuth機能を実装して、
+        <br />
+        例としてセッションデータをJSONで取得し情報を表示。
       </div>
       <div className="flex flex-col rounded-md bg-neutral-100">
         <div className="p-4 font-bold rounded-t-md bg-neutral-200">
